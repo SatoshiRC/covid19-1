@@ -71,15 +71,18 @@ export default Vue.extend({
           link: this.localePath('/parent')
         },
         {
+          title: this.$t('群馬県公式ホームページ'),
+          link: 'https://www.pref.gunma.jp/'
+        },
+        {
           icon: 'mdi-account-multiple',
           title: this.$t('県民の皆様へ'),
           link: 'https://www.pref.gunma.jp/02/d29g_00243.html#kenmin'
         },
         {
           icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
-          divider: true
+          title: this.$t('事業者の皆様へ'),
+          link: 'https://www.pref.gunma.jp/02/d29g_00243.html#jigyousha'
         },
         {
           title: this.$t('群馬県における新型コロナウイルス感染症について'),
@@ -96,10 +99,6 @@ export default Vue.extend({
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
-        },
-        {
-          title: this.$t('群馬県公式ホームページ'),
-          link: 'https://www.pref.gunma.jp/'
         }
       ]
     }
