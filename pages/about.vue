@@ -11,7 +11,7 @@
           href="https://stopcovid19.metro.tokyo.lg.jp/"
           >東京都 新型コロナウイルス対策サイト</a
         >の<a href="https://github.com/tokyo-metropolitan-gov/covid19">仕組み</a
-        >を利用しています。 <br />
+        >を利用しています。<br />
         <br />
         {{
           $t(
